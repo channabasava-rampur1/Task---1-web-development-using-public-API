@@ -96,3 +96,8 @@ Deploy to Render, Heroku, or Vercel so others can use it online.
 
 ##output
 
+<img width="1912" height="861" alt="Image" src="https://github.com/user-attachments/assets/2353f411-4511-4a7d-8b6e-a938a565a2a8" />
+
+<img width="1918" height="864" alt="Image" src="https://github.com/user-attachments/assets/23eb7aba-37e7-455f-9c74-b680b0ee93f8" />
+
+<img width="1898" height="875" alt="Image" src="https://github.com/user-attachments/assets/dd588626-7b7f-4a5f-9e19-4f0d72c2c559" />
