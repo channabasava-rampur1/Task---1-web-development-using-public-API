@@ -53,7 +53,7 @@ Users can type questions or queries in the web interface, which are sent to the 
 ### **Clone the project**
 
 ```bash
-git clone <your-repo-link>
+git clone 
 cd gemini-chatbot
 Install dependencies
 bash
