@@ -1,104 +1,90 @@
-*COMPANY* : CODTECH IT SOLUTION
-*NAME* : CHANNABASAVA RAMPUR
-*INTERN ID* : CT06DY2265
-*DOMAIN* : FULL STACK WEB DEVELOPMENT
-*DURATION* : 6 WEEKS
-*MENTOR* : NEELA SANTHOSH
+# 🤖 Gemini Chatbot - AI-Powered Web Chat
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 
-##Description 
+---
 
-Gemini Chatbot
+### **Project Information**
 
-This project is a simple AI-powered chatbot website that connects to Google’s Gemini API.
-It allows users to type in any question or query through a web interface, sends it to the backend, and then displays the AI’s response in real time.
+- **Company:** CODTECH IT SOLUTION  
+- **Intern Name:** Channabasava Rampur  
+- **Intern ID:** CT06DY2265  
+- **Domain:** Full Stack Web Development  
+- **Duration:** 6 Weeks  
+- **Mentor:** Neela Santhosh  
 
-How it Works
+---
 
-Frontend (Website UI)
+## 💬 Project Description
 
-The user interacts with a webpage that has a text box and a button.
+**Gemini Chatbot** is a simple AI-powered chatbot website that connects to **Google’s Gemini API**.  
+Users can type questions or queries in the web interface, which are sent to the backend, and the AI’s response is displayed **in real-time**.
 
-They type in a question, for example: “What is Python used for?”, and click Ask.
+---
 
-Backend (Flask Server)
+## ⚙️ How It Works
 
-The frontend sends the user’s query to the Flask backend using a POST request.
+### **Frontend (Website UI)**
 
-Flask acts as a bridge between the website and the Gemini API.
+1. Users interact with a webpage that has a **text box** and a **button**.  
+2. They type a question (e.g., “What is Python used for?”) and click **Ask**.  
 
-Gemini API Call
+### **Backend (Flask Server)**
 
-The backend forwards the query to Google’s Gemini AI model using the API key.
+1. Frontend sends the query to the Flask backend via a **POST request**.  
+2. Flask acts as a bridge between the website and **Google Gemini API**.  
+3. Backend sends the query to Gemini API using the **API key**.  
+4. Gemini generates a response and sends it back to Flask.  
+5. Backend returns the response to the frontend in **JSON format**.  
+6. Website updates to show the **chatbot’s answer** under the text box.
 
-Gemini processes the query and generates a response.
+---
 
-Send Answer Back
+## 🛠️ Tech Stack
 
-The Flask backend receives the response.
+| Frontend | Backend | AI Model |
+|----------|---------|----------|
+| HTML, CSS, JavaScript | Python, Flask | Google Gemini API |
 
-It sends the response back to the frontend in JSON format.
+---
 
-Display to User
+## 🚀 How to Run
 
-The website updates to show the chatbot’s answer under the text box.
+### **Clone the project**
 
-Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: Python, Flask
-
-AI Model: Google Gemini API
-
-How to Run
-
-Clone this project:
-
+```bash
 git clone <your-repo-link>
 cd gemini-chatbot
-
-
-Install dependencies:
-
+Install dependencies
+bash
+Copy code
 pip install flask google-generativeai
+Add Gemini API Key
+Edit app.py:
 
-
-Add your Gemini API Key in app.py:
-
+python
+Copy code
 genai.configure(api_key="YOUR_API_KEY_HERE")
-
-
-Run the app:
-
+Run the app
+bash
+Copy code
 python app.py
+Open in browser: http://127.0.0.1:5000
 
+```
 
-Open in browser:
-http://127.0.0.1:5000
-
-Features
-
+🌟 Features
 Simple and clean UI
 
-Real-time responses from Gemini
+Real-time AI responses from Gemini
 
 Backend powered by Flask
 
-Easy to extend (can add chat history or styling)
+Easy to extend (add chat history or custom styling)
 
-Future Improvements
+🔮 Future Improvements
+Add chat history so users can view previous queries
 
-Add chat history so users can see previous questions.
+Build a React frontend for a modern experience
 
-Create a modern React frontend for a smoother experience.
-
-Deploy to Render, Heroku, or Vercel so others can use it online.
-
-##output
-
-<img width="1912" height="861" alt="Image" src="https://github.com/user-attachments/assets/2353f411-4511-4a7d-8b6e-a938a565a2a8" />
-
-<img width="1918" height="864" alt="Image" src="https://github.com/user-attachments/assets/23eb7aba-37e7-455f-9c74-b680b0ee93f8" />
-
-<img width="1898" height="875" alt="Image" src="https://github.com/user-attachments/assets/dd588626-7b7f-4a5f-9e19-4f0d72c2c559" />
+Deploy to Render, Heroku, or Vercel for online access
