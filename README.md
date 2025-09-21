@@ -88,3 +88,16 @@ Add chat history so users can view previous queries
 Build a React frontend for a modern experience
 
 Deploy to Render, Heroku, or Vercel for online access
+---
+
+## **output**
+
+<img width="1912" height="861" alt="Image" src="https://github.com/user-attachments/assets/818fe5ad-5646-4395-8374-7b0af819cc14" />
+
+---
+
+<img width="1918" height="864" alt="Image" src="https://github.com/user-attachments/assets/42218b9d-58c4-46bd-b6c8-077259eb4c4e" />
+
+---
+
+<img width="1898" height="875" alt="Image" src="https://github.com/user-attachments/assets/98ba5f28-ee43-423b-980b-aba13da2aaca" />
